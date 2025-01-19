@@ -3,11 +3,6 @@ resource "aws_acm_certificate" "vk-blog-certificate" {
   validation_method = "DNS"
 }
 
-data "aws_route53_zone" "vk-hosted-zone" {
-  name         = "velvetkernel.com"
-  private_zone = false
-}
-
 resource "aws_route53_record" "vk-blog-certificate-record" {
   for_each = {
     for dvo in aws_acm_certificate.vk-blog-certificate.domain_validation_options : dvo.domain_name => {
