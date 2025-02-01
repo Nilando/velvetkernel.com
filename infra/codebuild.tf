@@ -99,3 +99,17 @@ resource "local_file" "buildspec" {
   content  = data.template_file.buildspec.rendered
 }
 
+/*
+# GITHUB MUST BE AUTHORIZED MANUALLY FOR WEBHOOK TO WORK
+resource "aws_codebuild_webhook" "main_push_hook" {
+  project_name = aws_codebuild_project.sync_s3.name
+  build_type   = "BUILD"
+
+  filter_group {
+    filter {
+      type    = "EVENT"
+      pattern = "PUSH"
+    }
+  }
+}
+*/
