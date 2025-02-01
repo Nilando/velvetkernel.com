@@ -77,7 +77,7 @@ resource "aws_codebuild_project" "sync_s3" {
   source {
     type            = "GITHUB"
     location        = "https://github.com/Nilando/velvetkernel.com"
-    buildspec       = "${path.module}/buildspec.yml"
+    buildspec       = "${path.module}/../buildspec.yml"
   }
 
   source_version = "main"
@@ -96,7 +96,7 @@ EOF
 }
 
 resource "local_file" "buildspec" {
-  filename = "${path.module}/buildspec.yml"
+  filename = "${path.module}/../buildspec.yml"
   content  = data.template_file.buildspec.rendered
 }
 
