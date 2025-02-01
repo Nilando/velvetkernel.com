@@ -90,7 +90,7 @@ phases:
   build:
     commands:
       - echo "Syncing /public folder to S3 bucket..."
-      - aws s3 sync public s3://${aws_s3_bucket.vk-blog-bucket.bucket} --acl public-read --delete
+      - aws s3 sync public s3://${aws_s3_bucket.vk-blog-bucket.bucket} --delete
 EOF
 }
 
