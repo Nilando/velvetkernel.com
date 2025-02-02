@@ -10,8 +10,10 @@ resource "aws_codepipeline" "codepipeline" {
 
   trigger {
       provider_type     = "CodeStarSourceConnection"
+
       git_configuration {
         source_action_name = "Source"
+
         push {
           branches {
             includes = ["main"]
@@ -65,7 +67,6 @@ resource "aws_codestarconnections_connection" "nilando_github" {
   name          = "nilando_github"
   provider_type = "GitHub"
 }
-
 
 resource "aws_s3_bucket_public_access_block" "velvetkernel_codepipeline_bucket_pab" {
   bucket = aws_s3_bucket.velvetkernel_codepipeline_bucket.id
