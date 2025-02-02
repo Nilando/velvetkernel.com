@@ -43,6 +43,23 @@ data "aws_iam_policy_document" "sync_s3" {
       "${aws_s3_bucket.vk-blog-bucket.arn}/*"
     ]
   }
+
+  statement {
+    effect = "Allow"
+
+    actions = [
+      "s3:GetObject",
+      "s3:GetObjectVersion",
+      "s3:GetBucketVersioning",
+      "s3:PutObjectAcl",
+      "s3:PutObject",
+    ]
+
+    resources = [
+      aws_s3_bucket.velvetkernel_codepipeline_bucket.arn,
+      "${aws_s3_bucket.velvetkernel_codepipeline_bucket.arn}/*"
+    ]
+  }
 }
 
 resource "aws_iam_role_policy" "sync_s3" {
