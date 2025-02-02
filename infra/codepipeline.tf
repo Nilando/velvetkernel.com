@@ -64,7 +64,7 @@ resource "aws_s3_bucket" "velvetkernel_codepipeline_bucket" {
 }
 
 resource "aws_codestarconnections_connection" "nilando_github" {
-  name          = "nilando_github"
+  name          = "nilando_github_connection"
   provider_type = "GitHub"
 }
 
