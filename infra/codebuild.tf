@@ -1,5 +1,4 @@
-/*
-data "aws_iam_policy_document" "assume_role" {
+data "aws_iam_policy_document" "codebuild_assume_role" {
   statement {
     effect = "Allow"
 
@@ -14,7 +13,7 @@ data "aws_iam_policy_document" "assume_role" {
 
 resource "aws_iam_role" "assume_role" {
   name = "assume_role"
-  assume_role_policy = data.aws_iam_policy_document.assume_role.json
+  assume_role_policy = data.aws_iam_policy_document.codebuild_assume_role.json
 }
 
 data "aws_iam_policy_document" "sync_s3" {
@@ -82,7 +81,6 @@ resource "aws_codebuild_project" "sync_s3" {
 
   source_version = "main"
 }
-*/
 
 data "template_file" "buildspec" {
   template = <<EOF
@@ -100,18 +98,3 @@ resource "local_file" "buildspec" {
   filename = "${path.module}/../buildspec.yml"
   content  = data.template_file.buildspec.rendered
 }
-
-/*
-# GITHUB MUST BE AUTHORIZED MANUALLY FOR WEBHOOK TO WORK
-resource "aws_codebuild_webhook" "main_push_hook" {
-  project_name = aws_codebuild_project.sync_s3.name
-  build_type   = "BUILD"
-
-  filter_group {
-    filter {
-      type    = "EVENT"
-      pattern = "PUSH"
-    }
-  }
-}
-*/

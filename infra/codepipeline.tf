@@ -38,7 +38,7 @@ resource "aws_codepipeline" "codepipeline" {
       version          = "1"
 
       configuration = {
-        ProjectName = "test"
+        ProjectName = aws_codebuild_project.sync_s3.name
       }
     }
   }
