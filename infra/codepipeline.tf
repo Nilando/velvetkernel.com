@@ -1,10 +1,23 @@
 resource "aws_codepipeline" "codepipeline" {
   name     = "s3_sync_pipeline"
   role_arn = aws_iam_role.codepipeline_role.arn
+  pipeline_type = "V2"
 
   artifact_store {
     location = aws_s3_bucket.velvetkernel_codepipeline_bucket.bucket
     type     = "S3"
+  }
+
+  trigger {
+      provider_type     = "CodeStarSourceConnection"
+      git_configuration {
+        source_action_name = "Source"
+        push {
+          branches {
+            includes = ["main"]
+          }
+        }
+      }
   }
 
   stage {
