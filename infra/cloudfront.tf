@@ -35,6 +35,11 @@ resource "aws_cloudfront_distribution" "vk-blog-distribution" {
       }
     }
 
+    function_association {
+      event_type   = "viewer-request"
+      function_arn = aws_cloudfront_function.index_redirect.arn
+    }
+
     viewer_protocol_policy = "redirect-to-https"
     min_ttl                = 0
     default_ttl            = 3600
@@ -58,4 +63,11 @@ resource "aws_cloudfront_distribution" "vk-blog-distribution" {
     acm_certificate_arn = aws_acm_certificate.vk-blog-certificate.arn
     ssl_support_method  = "sni-only"
   }
+}
+
+resource "aws_cloudfront_function" "index_redirect" {
+  name    = "index_redirect"
+  runtime = "cloudfront-js-2.0"
+  publish = true
+  code    = file("${path.module}/index_redirect.js")
 }
