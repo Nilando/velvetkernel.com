@@ -1,3 +1,4 @@
+/*
 data "aws_iam_policy_document" "assume_role" {
   statement {
     effect = "Allow"
@@ -81,6 +82,7 @@ resource "aws_codebuild_project" "sync_s3" {
 
   source_version = "main"
 }
+*/
 
 data "template_file" "buildspec" {
   template = <<EOF
