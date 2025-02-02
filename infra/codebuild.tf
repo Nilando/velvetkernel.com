@@ -104,9 +104,20 @@ data "template_file" "buildspec" {
 version: 0.2
 
 phases:
+  install:
+    runtime-versions:
+      ruby: 3.1  # Ensure AWS CodeBuild has Ruby installed
+    commands:
+      - echo "Installing Bundler and Jekyll dependencies..."
+      - gem install bundler
+      - cd site && bundle install # Install Jekyll dependencies
+
   build:
     commands:
-      - echo "Syncing /public folder to S3 bucket..."
+      - echo "Building Jekyll site..."
+      - cd site && JEKYLL_ENV=production bundle exec jekyll build
+      
+      - echo "Syncing Jekyll site to S3..."
       - aws s3 sync public s3://${aws_s3_bucket.vk-blog-bucket.bucket} --delete
 EOF
 }
