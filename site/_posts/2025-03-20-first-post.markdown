@@ -15,7 +15,7 @@ for my scripting language—the lexer.
 
 A lexer (sometimes called a scanner or tokenizer) is a fundamental component of a parser that breaks down a source file 
 into logical pieces, usually called tokens. The lexer gets its name from the 
-fact that defines the languages lexicon, which is the set of meaningful 
+fact that it defines the languages lexicon, which is the set of meaningful 
 tokens of the language.
 
 A lexer might take the following input...
@@ -81,9 +81,9 @@ it down significantly is that it accepts utf8 encoded input as opposed to just
 ascii. Each utf8 encoded char is needs to be processed as 4 bytes as opposed to
 ascii where each char is just a byte. 
 
-It could be an interesting exercise in the future to try and speed this up. 
+It could be an interesting exercise to try and speed this up. 
 I've heard that SIMD instructions can greatly speed up lexing, maybe that could 
-make an interesting blog post in the future.
+make a good blog post for another time.
 
 ### Summary
 
