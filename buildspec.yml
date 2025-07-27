@@ -15,4 +15,4 @@ phases:
       - JEKYLL_ENV=production bundle exec jekyll build
       
       - echo "Syncing Jekyll site to S3..."
-      - aws s3 sync _site s3://vk-blog-bucket --delete
+      - aws s3 sync _site s3://vk-blog-bucket --delete --exclude "images/*"
