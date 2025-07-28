@@ -6,3 +6,5 @@ as well as the static site generation files that are compiled via Jekyll.
 
 If you have any questions/comments you can friend me on discord. My username
 is nilandude.
+
+![Site infrastructure diagram](https://blog.velvetkernel.com/images/site_diagram.webp)
