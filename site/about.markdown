@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-My name is Niland Schumacher, I work as a fullstack software developer in Oakland, CA.
+My name is Niland Schumacher, I work as a fullstack software developer living in California.
 
 This is a blog to share interesting things I've been learning and fun things that
 I've been doing.
