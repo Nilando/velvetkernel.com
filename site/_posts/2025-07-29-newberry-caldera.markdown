@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Newberry Caldera"
-date:   2025-07-29 12:00:00 -0800
+date:   2025-07-29 00:00:00 -0800
 categories: Travel
 ---
 
