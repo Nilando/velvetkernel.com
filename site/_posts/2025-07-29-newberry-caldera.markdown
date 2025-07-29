@@ -7,7 +7,7 @@ categories: Travel
 
 After leaving Lassen National Park, we headed to Newberry National Volcanic
 Monument in Eastern Oregon to visit my Mom and Stepdad, Britt, who work as 
-volunteer park rangers at Newberry in the Summer. This was our second time
+volunteer park rangers there in the Summer. This was our second time
 visiting Newberry and there still so much new stuff we got to see and still
 things that we didn't have time to get to. It's truly a park packed with awesome
 geological features to see.
@@ -16,20 +16,20 @@ geological features to see.
 
 As volunteer park rangers, my Mom and Britt know alot about Newberry and 
 they both shared so much knowledge about the park with us. We got to go on a
-guided/interpretive hike with Britt that gave a great overview of the geological 
-timeline of the volcanic activity in Newberry. Newberry Caldera once had a peak
+guided/interpretive hike with Britt who gave a great overview of the geological 
+timeline of the volcanic activity in Newberry. The caldera once had a peak
 with a massive chamber of lava underneath it. At some point around 500,000 years
-ago some volcanic activity or eruption cause the magma chamber to empty and
-collapse. The result left a caldera which then filled with from rain water to 
-form two lakes; Lake Paulina and East Lake which exist today. Thats skipping 
-over lots of smaller volcanic events which you can see existing evidence of in 
-the park. There are cinder cones, pumice fields, and obsidian flows scattered 
-throughout the park that have been formed all within the past 500,000 years and 
-many being formed much more recently. Newberry is considered to still be active 
-and indeed there is ongoing thermal activity that heats hotsprings on the shores 
-of both lakes. While we were there we got to hike out to many of these places; 
-including Paulina Lake, a multi acre field of pumice rock, a beach of white
-pumice stones, and our favorite, the B.O.F. (Big Obsidian Flow).
+ago volcanic activity, maybe and eruption, caused the magma chamber to empty and
+collapse. The result left a caldera which then was filled from rain water to 
+form two lakes; Lake Paulina and East Lake. Thats skipping over lots of smaller 
+volcanic events which you can see existing evidence of in the park. There are 
+cinder cones, pumice fields, and obsidian flows scattered throughout that have 
+been formed all within the past 500,000 years and many being formed much more 
+recently. Newberry is considered to still be active and indeed there is ongoing 
+thermal activity in the form of hotsprings on the shores of both lakes. While we 
+were there we got to hike out to many of these cool places; including Paulina 
+Lake, a multi acre field of pumice rock, a beach of white pumice stones, and our 
+favorite, the B.O.F. (Big Obsidian Flow).
 
 While on our hikes we also got to see a lot of awesome wildlife in Newberry! 
 The park is home to many chipmunks, nighthawks, Clark's nutcrackers, deer and 
@@ -37,7 +37,7 @@ more. Suprisingly some animals, including the Pika and tree frogs, have even
 found homes in the rocky and seemingly unhospitable obsidian flows. We really 
 wanted to see a Pika (because they look so adorable!) and spent some time 
 looking and walking slowly around the BOF, but we couldn't find any. Margo saw a
-tree frog that was hiding in the BOF, but by the time I turned to look at it, it
+tree frog that was hiding in the BOF, but by the time I turned to look at it it
 had jumped away into the pile of obsidian rocks.
 
 <img src="/images/newberry_caldera_02.webp" alt="The BOF" loading="lazy">
@@ -51,18 +51,18 @@ took our hiking boots off and had our lunch of macaroni with chili. Then we
 walked out into the lake for a quick swim. As we waded into the lake, bubbles
 started to rise from the lake floor with each step. A moment later it started to 
 smell like eggs and we both crinkled our noses. We then noticed that the floor 
-of the lake was actually quite warm compared to the water. We realized it must 
-be sulfur and warm water getting through from some kind of hotspring! As I
+of the lake was actually quite warm compared to the water and realized it must 
+be sulfur and warm water coming through from some kind of hotspring! As I
 walked around a bit more my foot sunk through the sand and a bunch of bubbles
 rushed out of the ground with a strong sulfur smell. After that I thought I
-would enjoy the lake by just swim and avoid stirring up any more sulfur, but it 
-was definitely a surprising experience!
+would enjoy the lake by just swimming and avoid stirring up any more sulfur, but 
+it was definitely a surprising experience!
 
 <img src="/images/newberry_caldera_03.webp" alt="Swimming in East Lake" loading="lazy" style>
 
 We also still didn't have time for a few cool things that we will have to come
 back for. There are several mile long lavatubes (pyroducts) that you
-can hike through as well as a hike to the tops of a cinder cone thats covered in
+can hike through as well as a hike to the top of a cinder cone thats covered in
 pumice rocks. Who knows, we just might be back in a year or two for a third 
 visit.
 
@@ -71,7 +71,7 @@ There's so many cool facts about Newberry I missed, here are some good ones:
 a geothermal powerplant right in the center of the caldera.
 - Underneath the topsoil, there is a six foot layer of ash in Newberry that came 
 from the eruption that formed crater lake ~7,000 years ago.
-- There's evidence that Native American's had been living in the caldera up to
+- There's evidence that Native Americans had been living in the caldera up to
 10,000 years ago.
 - The most recent lava flow happened just ~1,000 years ago, and 
 geologists predict Newberry is overdue for another similar volcanic event! Such
