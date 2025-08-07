@@ -5,6 +5,8 @@ date:   2025-08-06 12:00:00 -0800
 categories: Arduino Software
 ---
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Q3K5phz2fMM?si=9SEYik8flgtf_IYI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 So recently someone in my neighborhood was giving away an Arudino along with 
 some other supplies to go along with it for free. My girlfriend reached out and 
 was lucky enough to get it all for free! What I think I got was the contents of 
