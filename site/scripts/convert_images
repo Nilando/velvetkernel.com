@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# Set target directory
+DIR="./images"
+count=0
+
+# Loop through all jpg, jpeg, and png images in the ./images directory
+for img in "$DIR"/*.{jpg,jpeg,png,JPG,JPEG,PNG}; do
+    # Skip if file doesn't exist (handles the case of no matches)
+    [ -e "$img" ] || continue
+
+    # Get the base filename without extension
+    base="${img%.*}"
+
+    # Convert to webp
+    echo "Converting: $img -> ${base}.webp"
+    convert -resize 1024x "$img" "${base}.webp"
+
+    if [ $? -eq 0 ]; then
+      count=$((count + 1))
+      rm $img
+    fi
+done
+
+echo "Finished converting ${count} images"
