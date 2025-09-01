@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Arduino Project 05 - Controller A Servo"
+title:  "Arduino Project 05 - Controlling A Servo"
 date:   2025-08-31 12:00:00 -0800
 categories: Arduino Software
 ---
