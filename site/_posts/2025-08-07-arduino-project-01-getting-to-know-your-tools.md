@@ -2,7 +2,7 @@
 layout: post
 title:  "Arduino Project 01 - Get to Know Your Tools"
 date:   2025-08-06 12:00:00 -0800
-categories: Arduino Software
+categories: Computers Arduino
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Q3K5phz2fMM?si=9SEYik8flgtf_IYI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

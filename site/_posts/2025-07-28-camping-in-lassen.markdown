@@ -2,7 +2,7 @@
 layout: post
 title:  "Camping in Lassen National Park"
 date:   2025-07-28 12:00:00 -0800
-categories: Travel
+categories: Travel Camping
 ---
 
 Last week I went camping for a couple of nights in Lassen National Park with my 

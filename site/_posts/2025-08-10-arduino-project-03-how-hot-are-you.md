@@ -2,7 +2,7 @@
 layout: post
 title:  "Arduino Project 03 - How Hot Are You?"
 date:   2025-08-10 12:00:00 -0800
-categories: Arduino Software
+categories: Computers Arduino
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FapRsXNX0mA?si=gE9PmEEkmJ8BoXIl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

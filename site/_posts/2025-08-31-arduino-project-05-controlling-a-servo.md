@@ -2,7 +2,7 @@
 layout: post
 title:  "Arduino Project 05 - Controlling A Servo"
 date:   2025-08-31 12:00:00 -0800
-categories: Arduino Software
+categories: Computers Arduino
 ---
 
 This is project 5 of the arduino project book where we learn how to control a servo. In this project we make use of PWM (which we learned about in the last project) to control a servo which is like a motor but can be controlled to rotate to specific angles. The project also introduces capacitors and got me looking into the datasheet of the ATmega328P in order to get PWM working with the servo. 

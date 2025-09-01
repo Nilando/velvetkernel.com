@@ -2,7 +2,7 @@
 layout: post
 title:  "Arduino Project 02 - Spaceship Interface"
 date:   2025-08-07 12:00:00 -0800
-categories: Arduino Software
+categories: Computers Arduino
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/bGYJ7Q0106w?si=D2At6bJwbO8A2oSI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

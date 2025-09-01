@@ -2,7 +2,7 @@
 layout: post
 title:  "Backpacking the Lost Coast Trail"
 date:   2025-08-30 12:00:00 -0800
-categories: backpacking
+categories: Travel Camping
 ---
 The Lost Coast in the Kings Range National Conservation Area of Northern California is a popular destination for backpackers for its unique and challenging trail that features an abundance of natural coastal beauty. My friend, Liam, and I were lucky enough to find the time to get to do a three night backpacking trip to get to experience some of this amazing wilderness.
 

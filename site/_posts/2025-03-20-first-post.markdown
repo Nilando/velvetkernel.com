@@ -2,7 +2,7 @@
 layout: post
 title:  "I made a Lexer in Rust"
 date:   2025-03-19 12:00:00 -0800
-categories: Software
+categories: Computers Nilang
 ---
 Over the past few months, I’ve been working on building a scripting language in 
 Rust as a hobby project. This project has taught me a lot about both the Rust 

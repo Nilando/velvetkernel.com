@@ -2,7 +2,7 @@
 layout: post
 title:  "Newberry Caldera"
 date:   2025-07-29 00:00:00 -0800
-categories: Travel
+categories: Travel Camping
 ---
 
 After leaving Lassen National Park, we headed to Newberry National Volcanic
