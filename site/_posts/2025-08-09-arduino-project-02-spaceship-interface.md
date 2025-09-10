@@ -5,8 +5,6 @@ date:   2025-08-07 12:00:00 -0800
 categories: Computers Arduino
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/bGYJ7Q0106w?si=D2At6bJwbO8A2oSI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 In this project you learn how to load a program onto the arduino board and also how you can use that program to control a digital pin which can in turn blink some LEDs. This project has quite a steep learning curve from the last project, as the process of loading the software onto the board can be a little bit complex. To add to that, I decided to stray from the book and write my first arduino program in Rust rather than use the arduino IDE. Also instead of making the logic for the “spaceship interface” that the book describes I decided it would be more fun to just make a simple binary number display. This required a bit less imagination and I felt it still taught me the same concepts. So the rest of this blog post will go through the steps of how I got my rust code loaded onto the board, and then it will go into the circuit and matching program for displaying an incrementing binary number.
 
 I’m going to breakdown the process of loading our rust code onto the the arduino into 3 main steps
